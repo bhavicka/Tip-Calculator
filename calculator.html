@@ -1,0 +1,58 @@
+<div class = "container">
+
+<form ng-submit = "calc(amount,pctg,persons)" class="form-inline">
+
+	<table class="table table-hover, center" >
+		<tr>
+			<td class="td">Bill Amount</td>
+			<td rowspan="2"></td>
+			<td class="td">Tip per person:</td>
+			<td> ${{tipperson}}</td>
+			
+		</tr>
+		
+		<tr>
+		   
+			  <td class="form-group">
+			    <div class="input-group">
+			     <div class="input-group-addon" id="dollar">$</div>
+			       <input type="text" ng-model="amount" class="form-control" aria-describedby="dollar" required="true"/>
+			       <div class="input-group-addon">.00</div>
+			     </div>
+			  </td>
+			 
+		</tr>
+    <tr>
+        <td class="td">Percentage</td>
+        <td rowspan="2"></td>
+        <td class="td">Total amount per person:</td>
+        <td> ${{totalperson}}</td>
+    </tr>
+    
+    <tr>
+        <td class="form-group">
+          <div class="input-group">
+            <input type="text" ng-model="pctg" class="form-control" aria-describedby="percentage" required="true"/>
+            <div class="input-group-addon" id="percentage">%</div>
+          </div>
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="td">No. of Persons</td>
+        <td rowspan="2"></td>
+        <td class="td">Total Bill Amount</td>
+        <td>${{amt}}</td>
+    </tr>
+    <tr>
+        <td><input type="text" ng-model="persons" class="form-control" required="true"/></td>
+    </tr>
+    
+    
+</table>
+  
+    <input type="submit" value="Calculate" class="btn btn-default"/>
+
+</form>
+
+</div>

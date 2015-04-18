@@ -1,0 +1,44 @@
+/*Overriding some bootstrap styles */
+
+
+.h1 {
+  color : #5cb85c;
+  margin-left : 18px;
+}
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+.td
+{
+  color: #5cb85c;
+  font-weight : bolder;
+  text-wrap: none;
+  max-width: 350px;
+}
+
+.input-group-addon
+{
+  width: 32px;
+  height: 34px;
+}
+
+.form-control
+{
+  width: 191px;
+  height: 34px;
+}
+
+.form-inline{
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.github-button
+{
+    margin-left : 18px;
+    display: block;
+}
+

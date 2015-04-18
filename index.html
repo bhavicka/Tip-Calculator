@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="tipcalc">
+
+  <head>
+    <link data-require="bootstrap@*" data-semver="3.3.2" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <script data-require="angular.js@*" data-semver="1.4.0-rc.0" src="https://code.angularjs.org/1.4.0-rc.0/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.4.0-rc.0" src="https://code.angularjs.org/1.4.0-rc.0/angular-route.js"></script>
+    <script data-require="jquery@2.1.3" data-semver="2.1.3" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="app.js"></script>
+    <script src="MainCtrl.js"></script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script> <!-- Github button link -->
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <h1 class="h1"> Tip Calculator	</h1>
+    <br/>
+    <br/>
+    <div ng-view></div>
+    
+  
+    
+    <div align="center">
+       <!-- Github link-->
+       <br/>
+       <br/>
+      <a class="github-button" href="https://github.com/bhavicka" data-style="mega" aria-label="Follow @bhavicka on GitHub">Follow @bhavicka</a>
+    </div>
+    
+  </body>
+
+
+</html>
